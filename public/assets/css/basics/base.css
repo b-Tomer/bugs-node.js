@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: var(--clr5);
+    font-family: 'roboto', Arial, Helvetica, sans-serif, monospace;
+    /* text-align: center; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+img,
+embed,
+video,
+object {
+    max-width: 100%;
+}
+
+/* Simple and useful CSS Debugging Technique */
+.debug * {
+    outline: 1px solid rgb(152, 152, 152);
+}
+
+.btn {
+    cursor: pointer;
+    color: var(--clr4);
+    background: inherit;
+    /* margin: 0.5em; */
+    border: 0;
+    padding: 0.5em;
+    border-radius: .5em;
+    height: max-content;
+    width: max-content;
+}
+
+.btn:hover {
+    background-color: var(--clr1);
+    transition: .6s;
+}
+
+.txt-input {
+    border: 0;
+    border-radius: 0.5em;
+    margin-left: 5px;
+    height: 30px;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+input:focus{
+    outline: none;
+}

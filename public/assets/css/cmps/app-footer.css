@@ -1,0 +1,27 @@
+
+
+.app-footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    color: var(--clr4);
+    grid-row: 3;
+    margin-top: 30px;
+    position: fixed;
+    bottom: 30px;
+    z-index: -50;
+  }
+  
+  footer a {
+    color: var(--clr3);
+    padding: 5px;
+  }
+
+  .app-footer h4 {
+    padding-bottom: 20px;
+  }
+
+  footer i{
+    color:  var(--clr4);
+  }
